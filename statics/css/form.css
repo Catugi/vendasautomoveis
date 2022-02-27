@@ -1,0 +1,72 @@
+input[type="text"],
+input[type="search"],
+input[type="submit"],
+input[type="number"],
+input[type="email"],
+input[type="reset"],
+select,
+input[type="checkbox"],
+input[type="password"] {
+  padding: 8px 14px;
+  display: inline-block;
+  outline: none;
+  width: 92%;
+  margin-right: 10px;
+  margin-left: 0px;
+
+  font-size: 14px;
+}
+input[type="submit"] {
+  background-color: blue;
+}
+input[type="reset"] {
+  background-color: red;
+}
+select {
+  width: 94.6%;
+}
+label {
+  width: 50%;
+}
+/*===========================*/
+body {
+  font-family: Arial;
+}
+h2,
+h1 {
+  text-align: center;
+}
+
+div.container {
+  width: 80%;
+  height: 87%;
+  margin: auto;
+  margin-top: 10px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*==========================*/
+button {
+  background-color: rgba(5, 73, 9, 0.6);
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+}
+.controlo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.bloco {
+  display: flex;
+  flex-direction: column;
+}
